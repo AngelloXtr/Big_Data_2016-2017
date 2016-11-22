@@ -1,0 +1,24 @@
+REQUISITOS VEEME
+
+1.	Gestión de suscriptores
+
+El sistema de almacenamiento debe cumplir con las siguientes características:
+•	Máxima disponibilidad
+•	Consistencia fuerte
+
+2.	Catálogo
+
+El sistema de almacenamiento debe:
+•	Garantizar la accesibilidad de todos los usuarios
+•	Integridad de datos
+•	Disponibilidad por regiones 
+También cabe destacar que no necesita escalar horizontalmente ya que se sólo se almacenarán los metadatos de las películas y series y el contenido multimedia de los mismos se almacenará en un sistema de streaming separado.
+
+3.	Análisis de usuario
+
+El sistema de almacenamiento tiene que realizar accesos clave-valor para ver la información de navegación de los usuarios. Debe escalar horizontalmente y tener alta disponibilidad ya que la aplicación gestiona grandes números de conexiones de usuarios, aumentando porcentualmente estas conexiones cada mes.
+
+4.	Sistema de recomendaciones
+
+Ya que los usuarios utilizan este sistema de recomendaciones de forma constante se requiere de un sistema de almacenamiento que permita realizar accesos en tiempo real para que estas recomendaciones se actualicen según las interacciones de los usuarios.
+	
